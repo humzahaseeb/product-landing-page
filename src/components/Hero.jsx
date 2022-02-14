@@ -21,7 +21,7 @@ const Hero = () => {
                 justifyContent: 'center',
             }}
         >
-            Handcrafted, home-made masterpieces
+            <span className='heading'>Handcrafted, home-made masterpieces</span>
         </Typography>
 
         <form

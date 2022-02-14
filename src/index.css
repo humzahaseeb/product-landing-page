@@ -55,4 +55,9 @@ li > a {
     justify-content: center;
   }
 
+  .heading{
+    width: 60%;
+    margin: 0 auto;
+  }
+
 }
