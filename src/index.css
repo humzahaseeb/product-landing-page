@@ -43,6 +43,26 @@ li > a {
   justify-content: space-evenly;
 }
 
+.footer{
+  margin-top: 5rem;
+  background-color: #ddd;
+  padding: 1.5rem;
+}
+
+.footer-content-upper{
+  display: flex;
+  justify-content: end;
+}
+
+.footer-content-lower{
+  display: flex;
+  justify-content: end;
+}
+
+.footer-text{
+  margin-right: 1rem;
+}
+
 @media screen and (max-width: 600px) {
 
   nav{
