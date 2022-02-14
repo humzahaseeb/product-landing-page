@@ -1,4 +1,5 @@
 import React from 'react'
+import Cards from './components/Cards';
 import Feature from './components/Feature';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
@@ -12,6 +13,11 @@ function App() {
       <Hero />
       <Feature />
       <Works />
+      <div className='cards'>
+        <Cards title='TENOR TROMBONE' price='600' />
+        <Cards title='BASS TROMBONE' price='900' />
+        <Cards title='VALVE TROMBONE' price='1200' />
+      </div>
     </div>
   );
 }

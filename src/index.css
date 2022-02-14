@@ -38,6 +38,10 @@ li > a {
   font-size: 1.2rem;
 }
 
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
 
 @media screen and (max-width: 600px) {
 
@@ -58,6 +62,16 @@ li > a {
   .heading{
     width: 60%;
     margin: 0 auto;
+  }
+  .cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card{
+    width: 50%;
+    margin: 1rem;
   }
 
 }
