@@ -12,7 +12,11 @@ const Hero = () => {
 
 
   return (
-    <div>
+    <form
+        id='form'
+        action="https://www.freecodecamp.com/email-submit"
+        method='SUBMIT'
+    >
         <Typography
             variant="h5"
             style={{
@@ -24,7 +28,7 @@ const Hero = () => {
             <span className='heading'>Handcrafted, home-made masterpieces</span>
         </Typography>
 
-        <form
+        <div
             action=""
             style={{
                 display: 'flex',
@@ -38,8 +42,9 @@ const Hero = () => {
                 value={email}
                 onChange={handleChange}
                 style={{height: '1.5rem', width: '15rem'}}
+                id='email'
             />
-        </form>
+        </div>
         <div
             className="button"
             style={{
@@ -58,11 +63,13 @@ const Hero = () => {
                     cursor: 'pointer',
                     fontWeight: 'bold',
                 }}
+                id='submit'
+                action="https://www.freecodecamp.com/email-submit"
             >
                 Get Started
             </button>
         </div>
-    </div>
+    </form>
   )
 }
 
